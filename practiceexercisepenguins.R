@@ -33,7 +33,7 @@ cleanpen<-cleaning2(penguins_raw)
 #want to use t test to see if the difference in mean body mass between two species of penguin is statistically significant
 
 slimpen<-subset(cleanpen, select=c("species", "body_mass_g"))
-slimpen <- slimpen[-c(265:331),]
+slimpen <- slimpen[-c(265:333),]
 #extracts just the species and body mass, removes all chinstrap
 
 summary(slimpen)
