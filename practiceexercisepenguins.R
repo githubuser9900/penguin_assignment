@@ -4,6 +4,12 @@
 # -- last edited:07/12/2022
 
 # housekeeping ------------------------------------------------------------
+setwd("")
+#set to your working directory - my file path removed here as it contains identifying information
+
+penguins_raw<-read.csv("data-raw/penguins_raw.csv")
+#reads our data into r!
+#data provided by project setter
 
 library(ggplot2)
 library(palmerpenguins)
